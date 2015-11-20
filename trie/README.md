@@ -9,6 +9,6 @@ Implementation of a basic trie:
 	- if present, it will traverse based on the char in the string
 	- else, node is created
 
-- display() invoked recursive function printer() which takes tillNow as
+- display() invokes recursive function printer() which takes tillNow as
 	invariant. A particlar node is considered as end of the string if 
 	its value is not 0.
